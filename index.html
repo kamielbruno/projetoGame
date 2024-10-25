@@ -1,0 +1,144 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css"
+      integrity="sha512-DTOQO9RWCH3ppGqcWaEA1BIZOC6xxalwEsw9c2QQeAIftl+Vegovlnee1c9QX4TctnWMn13TZye+giMm8e2LwA=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
+    <link rel="stylesheet" href="app/css/style.css" />
+    <link rel="stylesheet" href="app/css/menu.css" />
+    <link rel="icon" type="image/png" href="app/media/AgroUrbano.png" />
+    <title>home</title>
+  </head>
+  <body>
+
+    
+
+    <script>
+      loadMenu("index.html");
+    </script>
+    <nav id="Barra-Lateral">
+      <div id="carregar-menu">
+
+        <div id="Conteudo-Barra-Lateral">
+          <div id="logo">
+            <img src="app/media/AgroUrbano.png" id="logo_avatar" alt="Logo" />
+        
+            <p id="informacao-logo">
+              <span class="item-descricao"> Campo Minado </span>
+              <span class="item-descricao">Site sobre campo minado</span>
+            </p>
+          </div>
+        
+          <ul id="side_items">
+            <li class="side-item" data-page="home.html">
+              <a href="index.html">
+                <i class="fa-solid fa-house"></i>
+                <span class="item-descricao"> Home </span>
+              </a>
+            </li>
+        
+            <li class="side-item" data-page="dicas.html">
+              <a href="app/paginas/dicas.html">
+                <i class="fa-solid fa-lightbulb"></i>
+                <span class="item-descricao"> Dicas </span>
+              </a>
+            </li>
+        
+            <li class="side-item" data-page="linha-tempo.html">
+              <a href="app/paginas/linha-tempo.html">
+                <i class="fa-solid fa-hourglass-start"></i>
+                <span class="item-descricao"> Linha Do Tempo </span>
+              </a>
+            </li>
+        
+            <li class="side-item" data-page="jogo.html">
+              <a href="app/paginas/jogo.html">
+                <i class="fa-solid fa-gamepad"></i>
+                <span class="item-descricao"> Jogo </span>
+              </a>
+            </li>
+          </ul>
+        
+          <button id="open_btn">
+            <i id="open_btn_icon" class="fa-solid fa-chevron-right"></i>
+          </button>
+        </div>
+        
+        <div id="login">
+          <a href="../paginas/login.html" class="detalhes-link">
+            <button id="login_btn">
+              <i class="fa-solid fa-right-to-bracket"></i>
+              <span class="item-descricao"> Login </span>
+            </button>
+          </a>
+        </div>
+
+      </div>
+    </nav>
+    <main>
+      <h1 class="titulo-index">Campo Minado</h1>
+      <div class="index-parte">O que é o Campo Minado?</div>
+      <div class="index-conteudo">
+        O Campo Minado é um jogo de lógica e raciocínio onde o objetivo é 
+        descobrir todas as células de um campo sem clicar nas que possuem 
+        bombas. Originalmente criado como um jogo de computador, ele ficou 
+        muito popular com versões clássicas no sistema operacional Windows.
+      </div>
+      <div class="index-parte">Como Se joga Campo minado?</div>
+      <div class="index-conteudo">
+        O Campo Minado é um jogo clássico de estratégia e lógica, 
+        onde o objetivo é revelar um campo de quadrados sem minas, sem acionar nenhuma delas.
+         Você pode entende como se joga e algumas dicas na aba <a href="./dicas.html" class="detalhes-link">Dicas</a>
+      </div>
+      <div class="index-parte">Quem sou eu? Como entrar em contato?</div>
+      <div class="index-conteudo">
+        Me chamo Jessica Luana Gula Dreher, e atualmente estudo no segundo ano
+        do ensino médio (2024). Caso queira entrar em contato tanto para tirar
+        duvidas, quanto para conhecer mais do meu trabalho, apenas clique em uma
+        das redes abaixo.
+      </div>
+      <div class="meus-links">
+        <a
+          href="https://www.instagram.com/dhglmx_15/"
+          target="_blank"
+          title="Instagram"
+          class="detalhes-link"
+        >
+          <img
+          src="https://img.shields.io/badge/Instagram-%234b5757?style=for-the-badge&logo=instagram&logoColor=white"
+            alt="Instagram"
+          />
+        </a>
+        <a
+          href="https://www.linkedin.com/in/jessica-luana-gula-dreher/" 
+          target="_blank"
+          class="detalhes-link"
+        >
+          <img
+            src="https://img.shields.io/badge/LinkedIn-%234b5757?style=for-the-badge&logo=linkedin&logoColor=white"
+            target="_blank"
+            title="Linkedin"
+          />
+        </a>
+        <a
+          href="https://github.com/JessicaLuanaG/"
+          target="_blank"
+          title="GitHub"
+          class="detalhes-link"
+        >
+          <img
+          src="https://img.shields.io/badge/GitHub-%234b5757?style=for-the-badge&logo=github&logoColor=white" alt="GitHub"
+          />
+        </a>
+      </div>
+    </main>
+    <script src="app/js/menu.js"></script>
+
+  </body>
+</html>

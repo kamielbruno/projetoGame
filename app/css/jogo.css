@@ -1,0 +1,88 @@
+img {
+    user-select: none; /* Impede seleção de imagem ou texto ao redor */
+    -webkit-user-drag: none; /* Desabilita arrastar no WebKit (Chrome, Safari) */
+    -moz-user-select: none; /* Impede seleção no Firefox */
+    -ms-user-select: none; /* Impede seleção no IE/Edge */
+    pointer-events: auto; /* Mantém interações como cliques (se necessário) */
+  }
+  /* div, img{border: 1px solid blue;} */
+  
+  /* new main */
+.organizeGame{background-color: transparent;width: 50%;height: 99vh;display: grid;align-self: center;
+    margin-left: 200px;padding-top: 1%;}
+
+  /* main */
+  .mainCampoMinado {width: 328px;height: 412px;background: rgb(189, 189, 189);display: grid;
+    grid-template-rows: 20% 1fr;
+  }
+  
+  /* grid 01 */
+  .scoreBoardSystem {
+      background-color: transparent;
+      display: grid;
+      grid-template-columns: 72px 1fr 72px;
+      border-top: 4px solid grey;border-left: 4px solid gray;
+      border-right: 4px solid white;border-bottom: 4px solid white;
+      margin: 10px;
+      padding: 20px;
+      align-content: center;
+      justify-items: center;
+  }
+  /* todos DIV */
+  .insideCapsulaFromScore {
+      display: flex;
+      align-items: center;
+      justify-content: center;
+  }
+  .scoreBoardSystem img {
+      width: 23.66px;
+  }
+  /* TOTAL DE BOMBAS */
+  .bombsCheck { background: transparent; }
+  /* CARINHA RESET  */
+  .carinha img { width: 47.31px; }
+  /* RELOGIO CLOCK */
+  .clockCheck {background: transparent;}
+  
+  
+  
+  
+  /* grid 02 */
+  .realGamePass {
+      background: rgb(189, 189, 189);
+      padding: 4px;
+      border-top: 4px solid grey;border-left: 4px solid gray;
+      border-right: 4px solid white;border-bottom: 4px solid white;
+      margin: 4px;
+      display: grid;
+      grid-template-columns: 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr;
+  
+  }
+
+.realGamePass img{width: 29.11px;height: 29.11px;}
+
+.findTheRightSquare{width: 29.11px;}
+  
+.findTheRightSquare:hover, .carinha img:hover{cursor: pointer;}
+
+.controlClass{background-color: #BDBDBD;width: 336px;height: 62px;display: flex;align-self: end;margin-bottom: 20px;
+align-items: center;gap: 30px;justify-content: center;border-top: 4px solid white;border-left: 4px solid white;
+border-right: 4px solid grey;border-bottom: 4px solid grey;}
+  
+.controlClass img{width: 42.89px;height: 42.89px;}
+
+.controlInsideClick:hover{cursor: pointer;}
+
+
+
+
+
+
+
+@media (max-width: 604px) {
+    .organizeGame {margin-left: 150px;}
+}
+
+@media (max-width: 517px) {
+    .organizeGame {margin-left: 130px;}
+}
